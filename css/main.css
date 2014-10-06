@@ -4,6 +4,7 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
+    color: #FFFFFF;
 }
 
 header, section, footer {
@@ -31,3 +32,28 @@ header a:focus {
 	color: #FFFFFF;
 	background-color: #CC0000;
 }
+
+#about, #projects {
+	background-color: #5A0608;
+	overflow: auto;
+}
+
+#education, #contact {
+	background-color: #378F45;
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+	opacity: 1;
+}
+#about img:hover {
+	opacity: 0.7;
+}
+
+#education {
+	clear: left;
+}
+
+	
